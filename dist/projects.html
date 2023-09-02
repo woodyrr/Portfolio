@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="/dist/output.css" rel="stylesheet"> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Woody Ramey's Portfolio website2</title>
+</head>
+<body class="m-0 p-0 body box-border overflow-x-hidden bg-[#000503] ">
+    <header class="pt-6 w-full z-[99999] md:px-[8%] px-[2%]">
+        <div id="Home" class="text-white flex justify-between py-3 px-[4%]">
+            <a href="/index.html" class="text-xl pt-3">WR</a>
+            <button class="nav-open-btn flex flex-col mt-4 gap-2 lg:hidden">
+                <span class="line duration-500 w-[42px] h-[2px]"></span>
+                <span class="line duration-500 w-[42px] h-[2px]"></span>
+                <span class="line duration-500 w-[42px] h-[2px] "></span>
+            </button>
+            <div class="hidden lg:flex gap-10 pt-3 font-semibold ">
+                <div class="hover:underline  duration-500 hover:underline-offset-8">
+                    <a href="/index.html">ABOUT</a>
+                </div>
+                
+                <!-- <div class="hover:underline  duration-500 hover:underline-offset-8">
+                    <a href="#projects">PROJECTS</a>
+                </div> -->
+                <div class="hover:underline  duration-500 hover:underline-offset-8">
+                    <a href="contact.html">CONTACT</a>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+
+    <nav class="text-white bg-[#000503] space-y-5 header-overlay fixed top-28  right-0 w-full pt-5 h-full z-[9999]  opacity-0 duration-500 md:text-xl mx-auto text-center">
+
+        <div class="hover:underline  duration-500 hover:underline-offset-8">
+            <a href="/index.html">ABOUT</a>
+        </div>
+        <!-- <div class="hover:underline  duration-500 hover:underline-offset-8">
+            <a href="#projects">PROJECTS</a>
+        </div> -->
+        <div class="hover:underline  duration-500 hover:underline-offset-8">
+            <a href="contact.html">CONTACT</a>
+        </div>
+    </nav>
+
+    <div id="Projects" class="projects md:mt-16 sm:px-20 ">
+        <div class="text-5xl md:text-5xl py-16 text-center text-white animate-pulse">Projects...</div>
+        <div class="grid md:grid-cols-2 gap-2 xl:mx-[10%] 2xl:mx-[20%] ">
+            <div class="relative drinks ">
+                <img src="/images/Screen Shot 2023-06-09 at 17.59.50.png" alt="" class="drinksImg rounded-2xl">
+                <div class=" absolute text-right top-[40%] md:top-[44%] lg:left-[25%] sm:left-[18%] left-[15%] right-[20%] lg:right-[15%] flex flex-col h-0 overflow-hidden opacity-0 duration-700 overlay-1">
+                    <div class="flex flex-col justify-center self-center pb-2 text-left">
+                        <h2 id="hey" class="text-white font-bold  lg:text-md 2xl:text-lg text-left">SWISHER DRINKS</h2>
+                        <h3 class="text-gray-300 text-sm font-semibold 2xl:text-lg">An E-commerse application for buying soda/pepsi drinks.</h3>
+                    </div>
+                    
+                    <div class="flex gap-1 justify-right text-gray-100">
+                        <button class="px-2 bg-gray-500 rounded-full">
+                            <h2 class="text-sm xl:text-sm">html</h2></a>
+                        </button>
+                        <button class="px-2 bg-gray-500 rounded-full">
+                            <h2 class="text-sm xl:text-sm">css</h2></a>
+                        </button>
+                        <button class="px-2 bg-gray-500 rounded-full">
+                            <h2 class="text-sm xl:text-sm">tailwindcss</h2></a>
+                        </button>
+                        <button class="px-2 bg-gray-500 rounded-full">
+                            <h2 class="text-sm xl:text-sm">JS</h2>
+                        </button>
+                        <button class="px-2 bg-gray-500 rounded-full">
+                            <h2 class="text-sm xl:text-sm">Gsap</h2></a>
+                        </button>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="drinks-overlay fixed top-0 right-0 text-white px-4 duration-500 overflow-x-hidden h-full z-[99999]  bg-gray-900 md:w-[50%] ">
+                <div class="flex justify-between py-5">
+                    <div class="text-white text-lg font-bold underline underline-offset-8 cursor-pointer back-btn">Back to Projects</div>
+                </div>
+                <div class="flex flex-col justify-center">
+                    <img src="/images/Screen Shot 2023-06-09 at 17.59.50.png" alt="" class=" rounded-md lg:px-[10%] xl:px-[20%]">
+                    <div class="pt-10 ">
+                            <div class="text-white font-bold text-lg">About</div>
+                            <h3 class="text-white sm:pt-2">A template of an E-commerse application made to buy soda/pepsi products easily in one place.</h3>
+                            <div class="pt-6 sm:pt-10">
+                                <div class="text-white text-lg font-bold" >TECHNOLOGIES</div>
+
+                                <div class="flex space-x-2 pt-3">
+                            
+                                    <button class="p-2 bg-gray-500 rounded-lg">
+                                        <h2 class="text-sm xl:text-sm ">html</h2>
+                                    </button>
+                                    <button class="p-2 bg-gray-500 rounded-2xl">
+                                        <h2 class="text-sm xl:text-sm">css</h2>
+                                    </button>
+                                     <button class="p-2 bg-gray-500 rounded-md">
+                                        <h2 class="text-sm xl:text-sm">tailwindcss</h2>
+                                    </button>
+                                    <button class="p-2 bg-gray-500 rounded-xl">
+                                        <h2 class="text-sm xl:text-sm">JS</h2>
+                                    </button>
+                                    <button class="p-2 bg-gray-500 rounded-full">
+                                        <h2 class="text-sm xl:text-sm">Gsap</h2>
+                                    </button>
+                                </div>
+                            </div>
+                        
+                    </div>
+                    <div class="pt-12 flex flex-col space-y-3">
+                        <i class="fa-solid fa-earth-americas text-white text-md"> Website</i>
+                        <button class="p-3 bg-green-400 rounded-2xl hover:bg-purple-600">
+                            <a href="https://woodyrr.github.io/Swisher/" target="_blank"><h2 class="text-sm text-white ">https://woodyrr.github.io/Swisher/</h2></a>
+                        </button>
+                    </div>
+
+                    <div class="pt-12 pb-5 flex flex-col space-y-3 ">
+                        <i class="fa-brands fa-github text-white text-md"> GITHUB</i>
+                        <a href="https://github.com/woodyrr/Swisher" target="_blank" class=" text-white font-bold hover:underline underline-offset-8 text-sm">https://github.com/woodyrr/Swisher</a>
+                    </div>
+                    
+                </div>
+            </div>
+
+            
+
+            
+
+            <div class="colors relative">
+                <img src="/images/Screen Shot 2023-06-16 at 21.28.57.png" alt="" class="colorsImg rounded-2xl h-full ">
+                <div class=" absolute text-right top-[26%] md:top-[35%] lg:left-[25%] left-[20%] right-[20%] h-0 overflow-hidden opacity-0 duration-700 overlay2">
+                    <div class="flex flex-col justify-center self-center pb-2 text-left">
+                        <h2 id="hey" class="text-white font-bold  lg:text-lg 2xl:text-xl text-left">REALTIME COLORS</h2>
+                        <h3 class="text-gray-300 text-sm font-semibold 2xl:text-lg">Color Palettes make it hard to pick. This tool distributes the colors on a real website.</h3>
+                    </div>
+                    
+                    <div class="flex justify-right space-x-2 text-gray-100">
+                        <button class="px-2 bg-gray-500 rounded-lg">
+                            <h2 class="text-sm xl:text-sm">html</h2></a>
+                        </button>
+                        <button class="px-2 bg-gray-500 rounded-2xl">
+                            <h2 class="text-sm xl:text-sm">css</h2></a>
+                        </button>
+                        <button class="px-2 bg-gray-500 rounded-xl">
+                            <h2 class="text-sm xl:text-sm">tailwindcss</h2></a>
+                        </button>
+                        <button class="px-2 bg-gray-500 rounded-md">
+                            <h2 class="text-sm xl:text-sm">JS</h2>
+                        </button>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="colors-overlay fixed top-0 right-0 text-white px-4 duration-500 overflow-x-hidden h-full z-[99999]  bg-gray-900 md:w-[50%]">
+                <div class="flex justify-between py-5">
+                    <div class="text-white text-lg font-bold underline underline-offset-8 cursor-pointer back-btn1">Back to Projects</div>
+                </div>
+                <div class="flex flex-col justify-center">
+                    <img src="/images/Screen Shot 2023-06-16 at 21.28.57.png" alt="" class=" rounded-md lg:px-[10%] xl:px-[20%]">
+                    <div class="pt-10 ">
+                            <div class="text-white font-bold text-lg">About</div>
+                            <h3 class="text-white sm:pt-2">Color Palettes make it hard to pick. This tool distributes the colors on a real website.</h3>
+                            <div class="pt-6 sm:pt-10">
+                                <div class="text-white text-lg font-bold" >TECHNOLOGIES</div>
+
+                                <div class="flex space-x-2 pt-3">
+                            
+                                    <button class="p-2 bg-gray-500 rounded-lg">
+                                        <h2 class="text-sm xl:text-sm ">html</h2>
+                                    </button>
+                                    <button class="p-2 bg-gray-500 rounded-2xl">
+                                        <h2 class="text-sm xl:text-sm">css</h2>
+                                    </button>
+                                     <button class="p-2 bg-gray-500 rounded-md">
+                                        <h2 class="text-sm xl:text-sm">tailwindcss</h2>
+                                    </button>
+                                    <button class="p-2 bg-gray-500 rounded-xl">
+                                        <h2 class="text-sm xl:text-sm">JS</h2>
+                                    </button>
+                                    
+                                </div>
+                            </div>
+                        
+                    </div>
+                    <div class="pt-12 flex flex-col space-y-3">
+                        <i class="fa-solid fa-earth-americas text-white text-md"> Website</i>
+                        <button class="p-3 bg-green-400 rounded-2xl hover:bg-purple-600">
+                            <a href="https://woodyrr.github.io/random-color-template/" target="_blank"><h2 class="text-sm text-white ">https://woodyrr.github.io/random-color-template/</h2></a>
+                        </button>
+                    </div>
+
+                    <div class="pt-12 pb-5 flex flex-col space-y-3 ">
+                        <i class="fa-brands fa-github text-white text-md"> GITHUB</i>
+                        <a href="https://github.com/woodyrr/random-color-template" target="_blank" class=" text-white font-bold hover:underline underline-offset-8 text-sm">https://github.com/woodyrr/random-color-template</a>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="foods relative ">
+                <img src="/images/127.0.0.1_57387_index.html (1).png" alt="" class="foodsImg rounded-2xl h-full ">
+                <div class=" absolute text-right top-[40%] md:left-[18%] left-[20%] sm:left-[25%] lg:left-[25%]  right-[20%] lg:right-[15%] h-0 overflow-hidden opacity-0 duration-700 overlay3">
+                    <div class="flex flex-col justify-center self-center pb-2 text-left">
+                        <h2 id="hey" class="text-white font-bold text-lg lg:text-xl 2xl:text-2xl text-left">Master Foods</h2>
+                        <h3 class="text-gray-300 lg:text-lg font-semibold 2xl:text-xl">Empowering chefs and cooks worldwide toward giving customers an overall better culinary experience.</h3>
+                    </div>
+                    
+                    <div class="flex justify-right space-x-2 text-gray-100">
+                        <button class="px-2 bg-gray-500 rounded-lg">
+                            <h2 class="text-sm xl:text-sm">html</h2></a>
+                        </button>
+                        <button class="px-2 bg-gray-500 rounded-2xl">
+                            <h2 class="text-sm xl:text-sm">css</h2></a>
+                        </button>
+                        <button class="px-2 bg-gray-500 rounded-xl">
+                            <h2 class="text-sm xl:text-sm">tailwindcss</h2></a>
+                        </button>
+                        <button class="px-2 bg-gray-500 rounded-md">
+                            <h2 class="text-sm xl:text-sm">JS</h2>
+                        </button>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="foods-overlay fixed top-0 text-white right-0 duration-500 overflow-x-hidden h-full z-[99999] w-full md:w-[50%]  bg-gray-900 ">
+                <div class="flex justify-between py-5 px-4 ">
+                    <div class="text-white text-lg font-bold underline underline-offset-8 cursor-pointer back-btn2">Back to Projects</div>
+                </div>
+                <div class="flex flex-col justify-center px-4 ">
+                    <img src="/images/127.0.0.1_57387_index.html (1).png" alt="" class=" rounded-md  lg:px-[10%] xl:px-[20%]">
+                    <div class="pt-10 ">
+                            <div class="text-white font-bold text-lg">About</div>
+                            <h3 class="text-white sm:pt-2">Empowering chefs and cooks worldwide toward giving customers an overall better culinary experience.</h3>
+                            <div class="pt-6 sm:pt-10">
+                                <div class="text-white text-lg font-bold" >TECHNOLOGIES</div>
+
+                                <div class="flex space-x-2 pt-3">
+                            
+                                    <button class="p-2 bg-gray-500 rounded-lg">
+                                        <h2 class="text-sm xl:text-sm ">html</h2>
+                                    </button>
+                                    <button class="p-2 bg-gray-500 rounded-2xl">
+                                        <h2 class="text-sm xl:text-sm">css</h2>
+                                    </button>
+                                     <button class="p-2 bg-gray-500 rounded-md">
+                                        <h2 class="text-sm xl:text-sm">tailwindcss</h2>
+                                    </button>
+                                    <button class="p-2 bg-gray-500 rounded-xl">
+                                        <h2 class="text-sm xl:text-sm">JS</h2>
+                                    </button>
+                                    
+                                </div>
+                            </div>
+                        
+                    </div>
+                    <div class="pt-12 flex flex-col space-y-3">
+                        <i class="fa-solid fa-earth-americas text-white text-md"> Website</i>
+                        <button class="p-3 bg-green-400 rounded-2xl hover:bg-purple-600">
+                            <a href="https://woodyrr.github.io/Master_Foods/" target="_blank"><h2 class="text-sm text-white ">https://woodyrr.github.io/Master_Foods/</h2></a>
+                        </button>
+                    </div>
+
+                    <div class="pt-12 pb-5 flex flex-col space-y-3 ">
+                        <i class="fa-brands fa-github text-white text-md"> GITHUB</i>
+                        <a href="https://github.com/woodyrr/Master_Foods" target="_blank" class=" text-white font-bold hover:underline underline-offset-8 text-sm">https://github.com/woodyrr/Master_Foods</a>
+                    </div>
+                    
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+
+    <Script src="projects.js"></Script>
+    
+        
+
+    <style>
+        .nav-open-btn.active .line:nth-child(1) {
+        transform: translateY(10px) rotate(45deg);
+        
+        
+        }   
+        .nav-open-btn.active .line:nth-child(3) {
+        transform: translateY(-10px) rotate(-45deg);
+        
+        }
+        .nav-open-btn.active .line:nth-child(2) {
+        opacity: 0;
+        }
+        .line{
+        background-color: white;
+        }
+        .overlay-1.active{
+            transform: translateY(-40px);
+            opacity:1;
+            
+        }
+        .overlay2.active{
+            transform: translateY(-30px);
+            opacity:1;
+            
+        }
+        .overlay3.active{
+            transform: translateY(-30px);
+            opacity:1;
+            
+        }
+        .header-overlay.active{
+        transform: translateX(0px); 
+        opacity: 1;
+        transition: transform 0.4s ease-out, visibility 0s;
+        display: block;;
+    
+        }
+        .header-overlay{
+        transform: translateX(-100%); 
+        opacity: 0;
+        transition: transform 0.3s ease-out , visibility 0s;
+        display: hidden;
+        width: 100%;
+    
+        }
+        .drinks-overlay.active{
+            transform: translateX(0%); 
+            opacity: 1;
+            transition: transform 0.6s ease-out, visibility 0s;
+            display: block;;
+    
+        }
+        .drinks-overlay{
+        transform: translateX(200%); 
+        opacity: 0;
+        transition: transform 0.1s ease-out , visibility 0s;
+        display: hidden;
+        width: 100%;
+        }
+
+        .colors-overlay.active{
+            transform: translateX(0%); 
+            opacity: 1;
+            transition: transform 0.6s ease-out, visibility 0s;
+            display: block;;
+    
+        }
+        .colors-overlay{
+        transform: translateX(200%); 
+        opacity: 0;
+        transition: transform 0.1s ease-out , visibility 0s;
+        display: hidden;
+        width: 100%;
+        }
+        .foods-overlay.active{
+            transform: translateX(0%); 
+            opacity: 1;
+            transition: transform 0.6s ease-out, visibility 0s;
+            display: block;
+        }
+        .foods-overlay{
+        transform: translateX(200%); 
+        opacity: 0;
+        transition: transform 0.1s ease-out , visibility 0s;
+        display: hidden;
+        width: 100%;
+        }
+        @media only screen and (min-width: 768px) {
+            .foods-overlay.active{
+                width: 60%;
+            }
+            .colors-overlay.active{
+                width: 60%;
+            }
+            .drinks-overlay.active{
+                width: 60%;
+                
+            }
+        }
+        
+        
+    </style>
+</body>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Woody Ramey's Portfolio website2</title>
+</head>
+<body class="bg-[#000503] flex flex-col">
+    <header class="pt-6 w-full z-[99999] md:px-[8%] px-[2%]">
+        <div id="Home" class="text-white flex justify-between py-3 px-[4%]">
+            <a href="/index.html" class="text-xl pt-3">WR</a>
+            <!-- <button class="nav-open-btn flex flex-col mt-4 gap-2 lg:hidden">
+                <span class="line duration-500 w-[42px] h-[2px]"></span>
+                <span class="line duration-500 w-[42px] h-[2px]"></span>
+                <span class="line duration-500 w-[42px] h-[2px] "></span>
+            </button> -->
+            <div class="flex gap-10 pt-3 font-semibold ">
+                <div class="hover:underline  duration-500 hover:underline-offset-8">
+                    <a href="/index.html">HOME</a>
+                </div>
+                <div class="hover:underline  duration-500 hover:underline-offset-8">
+                    <a href="/index.html">ABOUT</a>
+                </div>
+                
+                <!-- <div class="hover:underline  duration-500 hover:underline-offset-8">
+                    <a href="#projects">PROJECTS</a>
+                </div> -->
+            </div>
+        </div>
+        
+        
+    </header>
+    
+    <div class="container w-full h-[100vh]  flex items-center justify-center text-black">
+        <!-- <form action="https://formsubmit.co/woodyramey@icloud.com" method="POST"  class="bg-[#fff] flex flex-col py-[2vw] px-[4vw] w-[90%] max-w-[600px] 2xl:max-w-[1100px] 3xl:max-w-[1900px] rounded-sm">
+            <h3 class="text-[#555] font-bold mb-[20px]">CONTACT ME</h3>
+            <input type="hidden" name="_subject" value="Email from porfolio site!">
+            <input class="border border-black " type="text" id="name" placeholder="Your Name" required>
+            <input type="hidden" id="_next" value="https://woodyrr.github.io/Portfolio/thanks.html" required>
+            <input class="border border-black" type="email" id="email" placeholder="Email" required>
+            <input class="border border-black" type="text" id="Phone" placeholder="Phone no." required>
+            <textarea class="border border-black" id="message" rows="4" placeholder="Message"></textarea>
+            <button class="text-white p-[15px] bg-[#000503] font-bold" type="submit">Send</button>
+             bg-[#ff5361] 
+        </form> -->
+
+        <form action="https://formsubmit.co/woodyramey@icloud.com" method="POST"  class="bg-[#fff] flex flex-col py-[2vw] px-[4vw] w-[90%] max-w-[600px] 2xl:max-w-[1100px] 3xl:max-w-[1900px] rounded-sm">
+            <h3 class="text-[#555] font-bold mb-[20px]">CONTACT ME</h3>
+            <input type="hidden" name="_subject" value="Email from porfolio site!">
+            <input type="text" name="name" placeholder="Enter Your Name">
+            <input type="hidden" id="_next" value="https://woodyrr.github.io/Portfolio/thanks.html" required>
+            <input class="border border-black" type="email" id="email" placeholder="Email" required>
+            <textarea class="border border-black" id="message" rows="4" placeholder="Message"></textarea>
+            <button class="text-white p-[15px] bg-[#000503] font-bold" type="submit">Send</button>
+            <!-- bg-[#ff5361] -->
+        </form>
+    </div>
+    <style>
+
+
+        form input, form textarea{
+            border:0;
+            margin:10px 0;
+            padding: 20px;
+            outline: none;
+            background: #f5f5f5;
+            font-size: 16px;
+        }
+        form button{
+            outline: none;
+            border:none;
+            cursor: pointer;
+            width: 150px;
+            margin: 20px auto 0;
+            border-radius: 30px;
+        }
+    </style>
+
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmai(){
+            Email.send({
+                Host : "smtp.elasticemail.com",
+                Username : "woodyramey@icloud.com",
+                Password : "JeanLouis12",
+                To : 'woodyramey@icloud.com',
+                From : document.getElementById("email").value,
+                Subject : "Woody ramey's porfolio website",
+                Body : "And this is the body"
+            }).then(
+            message => alert(message)
+            );
+        }
+    </script> -->
+</body>
+</html>
