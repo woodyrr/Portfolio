@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="output.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Woody Ramey's Portfolio website</title>
+</head>
+<body class="m-0 p-0 body box-border overflow-x-hidden ">
+    <div class="wrapper">
+        <div class="box">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <header class="pt-3 w-full z-[99999] md:px-[8%] px-[2%]">
+            <div id="Home" class="text-white flex justify-between py-3 px-[4%]">
+                <a href="index.html" class="text-xl pt-3">WR</a>
+                <button class="nav-open-btn flex flex-col mt-4 gap-2 lg:hidden">
+                    <span class="line duration-500 w-[42px] h-[2px]"></span>
+                    <span class="line duration-500 w-[42px] h-[2px]"></span>
+                    <span class="line duration-500 w-[42px] h-[2px] "></span>
+                </button>
+                <div class="hidden lg:flex gap-10 pt-3 font-semibold ">
+                    <div class="hover:underline  duration-500 hover:underline-offset-8">
+                        <a href="index.html">ABOUT</a>
+                    </div>
+                    
+                    <!-- <div class="hover:underline  duration-500 hover:underline-offset-8">
+                        <a href="#projects">PROJECTS</a>
+                    </div> -->
+                    <div class="hover:underline  duration-500 hover:underline-offset-8">
+                        <a href="contact.html">CONTACT</a>
+                    </div>
+                </div>
+            </div>
+            
+        </header>
+        <!-- top-28 -->
+    
+        <nav class=" bg-white space-y-5 header-overlay fixed  flex flex-col w-full pt-5 text-black z-[9999] top-0 right-0 py-3 opacity-0 duration-500 md:text-xl mx-auto text-center">
+            <div class="flex justify-between px-[4%] pt-3">
+                <a href="index.html" class="text-xl pt-3">WR</a>
+                <button class="nav-open-btn1 flex flex-col mt-4 gap-2 lg:hidden">
+                    <span class="line duration-500 w-[42px] h-[2px]"></span>
+                    <span class="line duration-500 w-[42px] h-[2px]"></span>
+                    <span class="line duration-500 w-[42px] h-[2px] "></span>
+                </button>
+            </div>
+            <div class="flex  flex-col justify-center items-center text-center gap-3">
+                <div class="hover:underline  duration-500 hover:underline-offset-8">
+                    <a href="index.html">HOME</a>
+                </div>
+                <div class="hover:underline  duration-500 hover:underline-offset-8">
+                    <a href="index.html">ABOUT</a>
+                </div>
+                
+                <div class="hover:underline  duration-500 hover:underline-offset-8">
+                    <a href="contact.html">CONTACT</a>
+                </div>
+            </div>
+        </nav>
+    
+        <div id="Projects" class="projects md:pt-2 px-[10%] md:px-[20%] flex flex-col gap-10 md:gap-6">
+            <div class="text-5xl md:text-5xl py-16 text-center animate-pulse  bg-gradient-to-r from-blue-600 to-green-500  inline-block text-transparent bg-clip-text ">Projects & Works...</div>
+            <div class="grid sm:grid-cols-2  gap-3">
+                <div class="drinks border  rounded-xl 2xl:mx-[15%] border-white ">
+                    <img src="images/woodyrr.github.io_Soleilla_.png" alt="" class=" rounded-2xl h-full"> 
+                </div>
+                    
+                <div class="flex flex-col justify-center items-center">
+                    <div class=" flex flex-col duration-700 md:gap-5 gap-2">
+                        <div class="flex flex-col ">
+                            <h2 id="hey" class="text-white font-bold  lg:text-md 2xl:text-lg text-left">SOLEILLA</h2>
+                            <h3 class="text-gray-300 text-sm font-semibold 2xl:text-lg">An E-commerse application for buying candle, lotion  and tea products.</h3>
+                        </div>
+                        
+                        <div class="flex gap-1  text-gray-100">
+                            <button class="px-2 bg-gray-500 rounded-full">
+                                <h2 class="text-sm xl:text-sm">html</h2></a>
+                            </button>
+                            <button class="px-2 bg-gray-500 rounded-full">
+                                <h2 class="text-sm xl:text-sm">css</h2></a>
+                            </button>
+                            <button class="px-2 bg-gray-500 rounded-full">
+                                <h2 class="text-sm xl:text-sm">tailwindcss</h2></a>
+                            </button>
+                            <button class="px-2 bg-gray-500 rounded-full">
+                                <h2 class="text-sm xl:text-sm">JS</h2>
+                            </button>
+                        </div>
+
+                        <div class="flex justify-left gap-3 text-center  ">
+                            <a href="https://woodyrr.github.io/Soleilla/" target="_blank" class=" p-2 site  rounded-lg"> Website</a>
+                            <a href="https://github.com/woodyrr/Soleilla/tree/main2" target="_blank" class="site p-2 rounded-lg"> Github</a>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="grid sm:grid-cols-2  gap-3">
+                <div class="drinks border  rounded-xl 2xl:mx-[15%] border-white ">
+                    <img src="images/Screen Shot 2023-06-16 at 21.28.57.png" alt="" class=" rounded-2xl h-full"> 
+                </div>
+                    
+                <div class="flex flex-col justify-center items-center">
+                    <div class=" flex flex-col duration-700 md:gap-5 gap-2">
+                        <div class="flex flex-col ">
+                            <h2 id="hey" class="text-white font-bold  lg:text-md 2xl:text-lg text-left">REALTIME COLORS</h2>
+                            <h3 class="text-gray-300 text-sm font-semibold 2xl:text-lg">Color Palettes make it hard to pick. This tool distributes the colors on a real website.</h3>
+                        </div>
+                        
+                        <div class="flex gap-1  text-gray-100">
+                            <button class="px-2 bg-gray-500 rounded-full">
+                                <h2 class="text-sm xl:text-sm">html</h2></a>
+                            </button>
+                            <button class="px-2 bg-gray-500 rounded-full">
+                                <h2 class="text-sm xl:text-sm">css</h2></a>
+                            </button>
+                            <button class="px-2 bg-gray-500 rounded-full">
+                                <h2 class="text-sm xl:text-sm">tailwindcss</h2></a>
+                            </button>
+                            <button class="px-2 bg-gray-500 rounded-full">
+                                <h2 class="text-sm xl:text-sm">JS</h2>
+                            </button>
+                        </div>
+                        
+                            
+
+                        <div class="flex justify-left gap-3 text-center  ">
+                            <a href="https://woodyrr.github.io/random-color-template/" target="_blank" class=" p-2 site  rounded-lg"> Website</a>
+                            <a href="https://github.com/woodyrr/random-color-template" target="_blank" class="site p-2 rounded-lg"> Github</a>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="grid sm:grid-cols-2  gap-3">
+                <div class="drinks border  rounded-xl 2xl:mx-[15%] border-white ">
+                    <img src="images/Screenshot 2023-09-03 at 14-09-22 Master Foods.png" alt="" class=" rounded-2xl h-full"> 
+                </div>
+                    
+                <div class="flex flex-col justify-center items-center">
+                    <div class=" flex flex-col duration-700 md:gap-5 gap-2">
+                        <div class="flex flex-col ">
+                            <h2 id="hey" class="text-white font-bold  lg:text-md 2xl:text-lg text-left">MASTER FOODS</h2>
+                            <h3 class="text-gray-300 text-sm font-semibold 2xl:text-lg">Template cooking website about Empowering chefs and cooks worldwide toward giving customers an overall better culinary experience.</h3>
+                        </div>
+                        
+                        <div class="flex gap-1  text-gray-100">
+                            <button class="px-2 bg-gray-500 rounded-full">
+                                <h2 class="text-sm xl:text-sm">html</h2></a>
+                            </button>
+                            <button class="px-2 bg-gray-500 rounded-full">
+                                <h2 class="text-sm xl:text-sm">css</h2></a>
+                            </button>
+                            <button class="px-2 bg-gray-500 rounded-full">
+                                <h2 class="text-sm xl:text-sm">tailwindcss</h2></a>
+                            </button>
+                            <button class="px-2 bg-gray-500 rounded-full">
+                                <h2 class="text-sm xl:text-sm">JS</h2>
+                            </button>
+                        </div>
+                        <div class="flex justify-left gap-3 text-center  ">
+                            <a href="https://woodyrr.github.io/Master_Foods/" target="_blank" class=" p-2 site  rounded-lg"> Website</a>
+                            <a href="https://github.com/woodyrr/Master_Foods" target="_blank" class="site p-2 rounded-lg"> Github</a>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+
+    
+    
+        
+
+    <style>
+        .nav-open-btn1 .line:nth-child(1) {
+        transform: translateY(10px) rotate(45deg);
+        
+        
+        }   
+        .nav-open-btn1 .line:nth-child(3) {
+        transform: translateY(-10px) rotate(-45deg);
+        
+        }
+        .nav-open-btn1 .line:nth-child(2) {
+        opacity: 0;
+        }
+        /* nabtn2 */
+        .line{
+            background: linear-gradient(90deg,rgb(105, 104, 104)45%, rgb(14, 13, 13) 100%,rgb(0, 0, 0)100% );
+        }
+        
+        .header-overlay.active{
+        transform: translateY(0px); 
+        opacity: 1;
+        transition: transform 0.4s ease-out, visibility 0s;
+        display: block;;
+    
+        }
+        .header-overlay{
+        transform: translateY(-100%); 
+        opacity: 0;
+        transition: transform 0.3s ease-out , visibility 0s;
+        display: hidden;
+        width: 100%;
+    
+        }
+        
+        .wrapper{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            overflow:auto;
+            background: linear-gradient(90deg,rgba(0, 0, 0)45%, rgb(255, 255, 255) 100%,rgba(0, 0, 0)100% );
+        }
+        .box div{
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            background-color: transparent;
+            border: 6px solid  rgba(20, 183, 224, 0.8) ;
+        }
+        .box div:nth-child(1){
+            top: 12%;
+            left: 42%;
+            animation: animate 10s linear infinite;
+        }
+        .box div:nth-child(2){
+            top: 70%;
+            left: 50%;
+            animation: animate 7s linear infinite;
+        }
+        .box div:nth-child(3){
+            top: 16%;
+            left: 6%;
+            animation: animate 9s linear infinite;
+        }
+        .box div:nth-child(4){
+            top: 20%;
+            left: 60%;
+            animation: animate 10s linear infinite;
+        }
+        .box div:nth-child(5){
+            top: 67%;
+            left: 10%;
+            animation: animate 6s linear infinite;
+        }
+        .box div:nth-child(6){
+            top: 80%;
+            left: 70%;
+            animation: animate 12s linear infinite;
+        }
+        .box div:nth-child(7){
+            top: 60%;
+            left: 80%;
+            animation: animate 15s linear infinite;
+        }
+        .box div:nth-child(8){
+            top: 32%;
+            left: 25%;
+            animation: animate 17s linear infinite;
+        }
+        .box div:nth-child(9){
+            top: 90%;
+            left: 25%;
+            animation: animate 9s linear infinite;
+        }
+        .box div:nth-child(10){
+            top: 20%;
+            left: 80%;
+            animation: animate 12s linear infinite;
+        }
+        @keyframes animate{
+            0%{
+                transform: scale(0) translateY(0) rotate(0);
+                opacity: 1;
+            }
+            100%{
+                transform: scale(1.3) translateY(-90px) rotate(360);
+                opacity: 0;
+            }
+        }
+        .site{
+            background: wheat;
+        }
+        
+        
+    </style>
+    <Script src="projects.js"></Script>
+</body>
