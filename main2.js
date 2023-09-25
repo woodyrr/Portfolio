@@ -1,10 +1,4 @@
 
-
-
-
-
-
-
 let openBtn = document.querySelector('.nav-open-btn')
 let openBtn1 = document.querySelector('.nav-open-btn1')
 let line = document.querySelectorAll('.line')
