@@ -12,7 +12,7 @@
     <title>Woody Ramey's Portfolio website</title>
 </head>
 <body class="m-0 p-0 body box-border overflow-x-hidden ">
-    <div class="wrapper">
+    <div class="wrapper py-10">
         <div class="box">
             <div></div>
             <div></div>
@@ -26,13 +26,13 @@
             <div></div>
         </div>
 
-        <header class="pt-3 w-full z-[99999] md:px-[8%] px-[2%]">
-            <div id="Home" class="text-white flex justify-between py-3 px-[4%]">
+        <header class="md:pt-3 w-full z-[99999] md:px-[8%] px-[2%]">
+            <div id="Home" class="text-white flex justify-between md:py-3 px-[4%]">
                 <a href="index.html" class="text-xl pt-3">WR</a>
                 <button class="nav-open-btn flex flex-col mt-4 gap-2 lg:hidden">
-                    <span class="line duration-500 w-[42px] h-[2px]"></span>
-                    <span class="line duration-500 w-[42px] h-[2px]"></span>
-                    <span class="line duration-500 w-[42px] h-[2px] "></span>
+                    <span class="line bg-white duration-500 w-[42px] h-[2px]"></span>
+                    <span class="bg-white duration-500 w-[42px] h-[2px]"></span>
+                    <span class="bg-white duration-500 w-[42px] h-[2px] "></span>
                 </button>
                 <div class="hidden lg:flex gap-10 pt-3 font-semibold ">
                     <div class="hover:underline  duration-500 hover:underline-offset-8">
@@ -55,9 +55,9 @@
             <div class="flex justify-between px-[4%] pt-3 md:px-[11%]">
                 <a href="index.html" class="text-xl pt-3">WR</a>
                 <button class="nav-open-btn1 flex flex-col mt-4 gap-2 lg:hidden">
-                    <span class="line duration-500 w-[42px] h-[2px]"></span>
-                    <span class="line duration-500 w-[42px] h-[2px]"></span>
-                    <span class="line duration-500 w-[42px] h-[2px] "></span>
+                    <span class="line bg-black duration-500 w-[42px] h-[2px]"></span>
+                    <span class="line bg-black duration-500 w-[42px] h-[2px]"></span>
+                    <span class="line bg-black duration-500 w-[42px] h-[2px] "></span>
                 </button>
             </div>
             <div class="flex  flex-col justify-center items-center text-center gap-3">
@@ -74,8 +74,46 @@
             </div>
         </nav>
     
-        <div id="Projects" class="projects md:pt-2 px-[10%] md:px-[20%] flex flex-col gap-10 md:gap-6">
-            <div class="text-5xl md:text-5xl py-16 text-center animate-pulse  bg-gradient-to-r from-blue-600 to-green-500  inline-block text-transparent bg-clip-text ">Projects & Works...</div>
+        <div id="Projects" class="projects md:pt-2 px-[6%] md:px-[20%] flex flex-col gap-10 md:gap-6">
+            
+            <h1 class="text-5xl md:text-5xl py-16 text-center animate-pulse bg-gradient-to-r from-white via-[#14dbe6] to-white inline-block text-transparent bg-clip-text">Projects</h1>
+            
+
+            <div class="grid sm:grid-cols-2  gap-3">
+                <div class="drinks border  rounded-xl 2xl:mx-[15%] border-white ">
+                    <img src="images/threeb.vercel.app_ (1).png" alt="" class=" rounded-2xl"> 
+                </div>
+                    
+                <div class="flex flex-col justify-center items-center">
+                    <div class=" flex flex-col duration-700 md:gap-5 gap-2">
+                        <div class="flex flex-col ">
+                            <h2 id="hey" class="text-white font-bold  lg:text-md 2xl:text-lg text-left">THREEB</h2>
+                            <h3 class="text-gray-300 text-sm font-semibold 2xl:text-lg">Anime/manga website where user can search for their favorite series to add and save their reading/watching status for next time. This site uses an anime api and taught me how to use use vuejs, Locale storage and apis.</h3>
+                        </div>
+                        
+                        <div class="flex gap-1  text-gray-100">
+                            <button class="px-2 bg-gray-500 rounded-full">
+                                <h2 class="text-sm xl:text-sm">Vuejs</h2></a>
+                            </button>
+                            <button class="px-2 bg-gray-500 rounded-full">
+                                <h2 class="text-sm xl:text-sm">tailwindcss</h2></a>
+                            </button>
+                            
+                        </div>
+
+                        <div class="flex justify-left gap-3 text-center  ">
+                            <a href="https://threeb.vercel.app/" target="_blank" class=" p-2 site  rounded-lg"> Website</a>
+                            <a href="https://github.com/woodyrr/TWB" target="_blank" class="site p-2 rounded-lg"> Github</a>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+
+
+            
             <div class="grid sm:grid-cols-2  gap-3">
                 <div class="drinks border  rounded-xl 2xl:mx-[15%] border-white ">
                     <img src="images/woodyrr.github.io_Soleilla_.png" alt="" class=" rounded-2xl"> 
@@ -161,7 +199,7 @@
                     <div class=" flex flex-col duration-700 md:gap-5 gap-2">
                         <div class="flex flex-col ">
                             <h2 id="hey" class="text-white font-bold  lg:text-md 2xl:text-lg text-left">MASTER FOODS</h2>
-                            <h3 class="text-gray-300 text-sm font-semibold 2xl:text-lg">Template cooking website about Empowering chefs and cooks worldwide toward giving customers an overall better culinary experience.</h3>
+                            <h3 class="text-gray-300 text-sm font-semibold 2xl:text-lg">Cooking website template about Empowering chefs and cooks worldwide toward giving customers an overall better culinary experience.</h3>
                         </div>
                         
                         <div class="flex gap-1  text-gray-100">
@@ -210,9 +248,9 @@
         opacity: 0;
         }
         /* nabtn2 */
-        .line{
+        /* .line{
             background: linear-gradient(90deg,rgb(105, 104, 104)45%, rgb(14, 13, 13) 100%,rgb(0, 0, 0)100% );
-        }
+        } */
         
         .header-overlay.active{
         transform: translateY(0px); 
@@ -235,7 +273,7 @@
             width: 100%;
             height: 100%;
             overflow:auto;
-            background: linear-gradient(90deg,rgba(0, 0, 0)45%, rgb(255, 255, 255) 100%,rgba(0, 0, 0)100% );
+            background: linear-gradient(240deg,rgba(0, 0, 0)80%, rgb(255, 255, 255) 100%,rgba(0, 0, 0)100% );
         }
         .box div{
             position: absolute;
