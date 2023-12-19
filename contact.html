@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Woody Ramey's Portfolio website2</title>
 </head>
-<body class="m-0 p-0 body box-border  overflow-x-none">
+<body class="m-0 p-0 body box-border overflow-x-none">
     <div class="wrapper">
         <div class="box">
             <div></div>
@@ -39,11 +39,35 @@
                 </div>
             </div>
         </header>
-        
-        <div class="container w-full h-[100vh]   flex items-center justify-center text-black ">
-            <form action="https://formsubmit.co/woodyramey@icloud.com" method="POST"  class="bg-[#fff] flex flex-col sm:mr-[3%] mx-[10%] w-full py-[2%] px-[4%]  rounded-sm">
+        <!-- h-[100vh] -->
+        <!-- flex items-center justify-center -->
+        <div class=" text-black px-[6%] sm:px-[10%] lg:px-[20%]">
+            <form action="https://formsubmit.co/woodyramey@icloud.com" method="POST"  class="bg-[#fff] flex flex-col px-[4%] md:px-[10%] rounded-lg  text-center md:text-sm py-5 md:py-20 w-full">
+                <!-- sm:mr-[3%] mx-[10%] w-full py-[2%] px-[4%] -->
                 <div class="flex flex-col justify-center text-center md:text-xl pb-4">
-                    <div>Email: woodyramey@icloud.com</div>
+                    <div class="flex justify-center gap-2">
+                        
+                        <div>Copy Email:</div>
+                        <button class="border flex justify-center items-center w-6 lg:w-9 bg-blue-300 rounded-xl border-[#20293A] copy">
+                            <img src="images/link.svg" class=" h-5 lg:h-6">
+                        </button>
+                        <div class="email hidden">woodyramey@icloud.com</div>
+                    </div>
+                    <!-- <div class="bg-gray-400">
+                        <div>resume:</div>
+                        <object
+                            data="images/Woody_Ramey_Resume-1.pdf"
+                            type="application/pdf"
+                            width="100%"
+                            height="100%"
+                        >
+                            <p>
+                                Your browser does not support PDFs.
+                                <a href="images/Woody_Ramey_Resume-1.pdf">Download the PDF</a>
+                                .
+                            </p>
+                        </object>
+                    </div> -->
                     <div>Phone: 615-840-4233</div>
                 </div>
                 <h3 class="text-[#555] font-bold pb-[20px]">CONTACT ME</h3>
@@ -52,10 +76,12 @@
                 <input class="border border-black" type="email" name="email" id="email" placeholder="Email" required>
                 <textarea class="border border-black" id="message" name="message" rows="4" placeholder="Message"></textarea>
                 <input type="hidden" name="_next" value="https://woodyrr.github.io/Portfolio/index.html">
-                <button class="text-white p-[15px]  bg-[#000503] font-bold" type="submit">Send</button>
+                <button class="text-white p-[15px]  bg-[#000503] font-bold flex justify-center items-center text-center formbtn" type="submit">Send</button>
             </form>
+            
         </div>
     </div>
+    <script src="contact.js"></script>
     
     <style>
         form input, form textarea{
@@ -66,7 +92,7 @@
             background: #f5f5f5;
             font-size: 16px;
         }
-        form button{
+        .formbtn{
             outline: none;
             border:none;
             cursor: pointer;
